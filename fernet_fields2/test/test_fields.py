@@ -3,10 +3,11 @@ from datetime import date, datetime
 
 from django.core.exceptions import FieldError, ImproperlyConfigured
 from django.db import connection, models as dj_models
-from django.utils.encoding import force_bytes, force_text
+from django.utils.encoding import force_bytes
 import pytest
 
 import fernet_fields2 as fields
+from fernet_fields2.utils import force_text
 from . import models
 
 

@@ -2,9 +2,10 @@ from cryptography.fernet import Fernet, MultiFernet
 from django.conf import settings
 from django.core.exceptions import FieldError, ImproperlyConfigured
 from django.db import models
-from django.utils.encoding import force_bytes, force_text
+from django.utils.encoding import force_bytes
 from django.utils.functional import cached_property
 
+from fernet_fields2.utils import force_text
 from . import hkdf
 
 
