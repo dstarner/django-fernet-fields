@@ -1,8 +1,8 @@
-django_fernet_fields.egg-info/
+django_fernet_fields2.egg-info/
 htmlcov/
 .tox/
 doc/_build/
 dist/
 .coverage
-fernet_fields/test/settings/testdb.sqlite
+fernet_fields2/test/settings/testdb.sqlite
 *.pyc

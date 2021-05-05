@@ -1,4 +1,4 @@
 [run]
-source = fernet_fields
-omit = fernet_fields/test/*
+source = fernet_fields2
+omit = fernet_fields2/test/*
 branch = 1

@@ -1,5 +1,5 @@
 INSTALLED_APPS = [
-    'fernet_fields.test',
+    'fernet_fields2.test',
 ]
 
 SECRET_KEY = 'secret'

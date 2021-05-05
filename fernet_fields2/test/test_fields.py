@@ -6,7 +6,7 @@ from django.db import connection, models as dj_models
 from django.utils.encoding import force_bytes, force_text
 import pytest
 
-import fernet_fields as fields
+import fernet_fields2 as fields
 from . import models
 
 

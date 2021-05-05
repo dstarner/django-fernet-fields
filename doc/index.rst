@@ -36,7 +36,7 @@ Usage
 Just import and use the included field classes in your models::
 
     from django.db import models
-    from fernet_fields import EncryptedTextField
+    from fernet_fields2 import EncryptedTextField
 
 
     class MyModel(models.Model):
@@ -62,7 +62,7 @@ their non-encrypted versions.
 To create an encrypted version of some other custom field class, inherit from
 both ``EncryptedField`` and the other field class::
 
-    from fernet_fields import EncryptedField
+    from fernet_fields2 import EncryptedField
     from somewhere import MyField
 
     class MyEncryptedField(EncryptedField, MyField):

@@ -1,6 +1,6 @@
 from django.db import models
 
-import fernet_fields as fields
+import fernet_fields2 as fields
 
 
 class EncryptedText(models.Model):

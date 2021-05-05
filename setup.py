@@ -7,14 +7,14 @@ long_description = (
 
 
 def get_version():
-    with open(join('fernet_fields', '__init__.py')) as f:
+    with open(join('fernet_fields2', '__init__.py')) as f:
         for line in f:
             if line.startswith('__version__ ='):
                 return line.split('=')[1].strip().strip('"\'')
 
 
 setup(
-    name='django-fernet-fields',
+    name='django-fernet-fields2',
     version=get_version(),
     description="Fernet-encrypted model fields for Django",
     long_description=long_description,
