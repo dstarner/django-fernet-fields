@@ -1,3 +1,4 @@
+# noqa: F401
 from django import VERSION as DJANGO_VERSION
 
 
